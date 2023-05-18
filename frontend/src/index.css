@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [type="text"],
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    @apply block w-full border-none rounded-md focus:ring-0;
+  }
+
+  td:last-child,
+  th:last-child {
+    @apply px-0;
+  }
+
+  td:first-child,
+  th:first-child {
+    @apply pl-0;
+  }
+
+  td,
+  th {
+    @apply p-1 md:p-1.5;
+  }
+}
+body {
+  font-family: "Poppins";
+}
+.p-generate-btn {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background: #2481dd;
+  border: 1px solid #0057a8;
+  outline: none;
+  transition: 1s ease-in-out;
+  border-radius: 8px;
+}
+.p-generate-btn:hover {
+  transition: 1s ease-in-out;
+  background: rgb(7, 7, 45);
+  color: whitesmoke;
+}
+
+.p-generatePDF-btn {
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  background: rgb(14, 191, 14);
+  outline: none;
+  border-radius: 8px;
+  transition: 1s ease-in-out;
+  float: right;
+}
+
+.p-generatePDF-btn:hover {
+  transition: 1s ease-in-out;
+  background: rgb(0, 54, 0);
+  color: aliceblue;
+}

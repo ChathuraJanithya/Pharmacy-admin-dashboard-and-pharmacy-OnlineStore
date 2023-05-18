@@ -1,0 +1,106 @@
+.checkout-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.total {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.payment-form {
+  margin-top: 20px;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.payment-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+  background-color: #f8f8f8;
+  color: coral;
+}
+.schedule-btn {
+  background-color: #11461de0;
+  color: #fff;
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+.schedule-form {
+  margin-top: 20px;
+}
+
+.schedule-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.schedule-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.validate {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.validateCvv {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.schedule-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-form button:hover {
+  background-color: #f8f8f8;
+  color: coral;
+}
